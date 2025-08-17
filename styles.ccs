@@ -1,0 +1,76 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+.nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+.nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container & Card Styling */
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #ccc;      /* Border */
+    padding: 15px;               /* Padding */
+    margin: 10px;                /* Margin */
+    width: 300px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+/* Card Headings */
+.card h2 {
+    color: #333;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
